@@ -1,0 +1,86 @@
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%
+}
+
+.searchinput {
+    outline: 0;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    background: rgba(217, 217, 217, 0.75);
+    border-radius: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0;
+    gap: 20px;
+}
+
+.card img {
+    width: 200px;
+}
+
+.cardheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.incredecrebtn{
+    width: 25px;
+    font-size: 19px;
+    color: #000;
+
+}
+
+.cardbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardtitle {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.carddesc {
+    color: #BFBFBF;
+    font-size: 20px;
+}
+
+.cardbtn {
+    background: #61B846;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    border: 0;
+    height: 70px;
+    width: 70px;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.tab-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-field{
+    padding: 10px 10px;
+}
