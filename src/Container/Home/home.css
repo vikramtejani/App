@@ -20,6 +20,11 @@
     display: flex;
     margin: 10px 0;
 }
+.item-name{
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 30px;
+}
 
 .card img {
     width: 200px;

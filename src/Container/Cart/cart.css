@@ -23,6 +23,11 @@
     margin: 7px 0;
     gap: 20px;
 }
+.item-name{
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 30px;
+}
 
 .card img {
     width: 200px;
@@ -41,8 +46,9 @@
 }
 
 .cardbody {
+    padding: 10px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .cardtitle {
@@ -63,6 +69,20 @@
     border: 0;
     height: 70px;
     width: 70px;
+}
+
+.line-total{
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    border: 1px solid #BFBCBC;
+    box-shadow: 2px 4px 4px #BFBCBC;
+}
+
+.pkr{
+    color: #61B846;
 }
 
 .tabs {

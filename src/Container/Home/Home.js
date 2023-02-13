@@ -4,6 +4,9 @@ import { FaHome, FaCartArrowDown, FaUserAlt } from 'react-icons/fa';
 import CartIcon from "./../../Assets/Carticon.png"
 import Grocery from "./../../Assets/Grocery.png"
 import Product1 from "./../../Assets/product1.png"
+import product3 from "./../../Assets/product3.png"
+import product4 from "./../../Assets/product4.png"
+
 import "./home.css"
 function Home() {
     return (
@@ -26,7 +29,7 @@ function Home() {
                 <input type="text" placeholder="Search by product name" className='searchinput' />
                 <div className="card">
                     <div>
-                        <img src={Product1} />
+                        <img className='item-name' src={Product1} />
                     </div>
                     <div>
                         <div className='cardheader'>
@@ -45,7 +48,7 @@ function Home() {
 
                 <div className="card">
                     <div>
-                        <img src={Product1} />
+                        <img className='item-name' src={product3} />
                     </div>
                     <div>
                         <div className='cardheader'>
@@ -64,7 +67,7 @@ function Home() {
 
                 <div className="card">
                     <div>
-                        <img src={Product1} />
+                        <img className='item-name' src={Product1} />
                     </div>
                     <div>
                         <div className='cardheader'>
@@ -82,7 +85,7 @@ function Home() {
                 </div>
                 <div className="card">
                     <div>
-                        <img src={Product1} />
+                        <img className='item-name' src={product4} />
                     </div>
                     <div>
                         <div className='cardheader'>
