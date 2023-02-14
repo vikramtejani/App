@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab897529.css",
+    "main.js": "/static/js/main.63df5250.js",
+    "static/media/product2.png": "/static/media/product2.20744de03f8b52ff902b.png",
+    "static/media/Grocery.png": "/static/media/Grocery.77bbbe63f892099e1a5a.png",
+    "static/media/product4.png": "/static/media/product4.950d91f044321f9d9ed6.png",
+    "static/media/product1.png": "/static/media/product1.d175f1d31f4f5a959664.png",
+    "static/media/Logo.png": "/static/media/Logo.668d4cc714b6c1ee3e93.png",
+    "static/media/product3.png": "/static/media/product3.cae732eb46a3c1efc509.png",
+    "static/media/Ellipse 4.png": "/static/media/Ellipse 4.d1153438950752f3b5ee.png",
+    "index.html": "/index.html",
+    "main.ab897529.css.map": "/static/css/main.ab897529.css.map",
+    "main.63df5250.js.map": "/static/js/main.63df5250.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab897529.css",
+    "static/js/main.63df5250.js"
+  ]
+}

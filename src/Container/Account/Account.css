@@ -1,3 +1,110 @@
-.vikram{
-    color: black;
+.header {
+    padding: 15px 0;
+    text-align: center;
+    color: #024F9D;
+}
+
+.header-img {
+    padding: 19px 0;
+    text-align: center;
+}
+
+.profile-img {
+    width: 135px;
+    height: 130px;
+    border: 1px solid #61B846;
+    border-radius: 70px;
+
+}
+
+.update-name {
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    color: #D4D3D3;
+    font-size: 20px;
+}
+
+.line {
+    margin: 0 550px;
+    border: 1px solid #BFBCBC;
+    box-shadow: 2px 4px 4px #BFBCBC;
+}
+
+.order {
+    padding: 0 300px;
+    color: #024F9D;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.order-full-detail {
+    padding: 30px 350px;
+}
+
+.order-name {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.order-detail {
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    padding: 10px 10px;
+    color: #BFBFBF;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.line-total {
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pkr {
+    color: #61B846;
+}
+
+.line3 {
+    border: 1px solid #BFBCBC;
+    box-shadow: 5px 4px 4px #BFBCBC;
+    margin-top: 19px;
+}
+
+.logout-btn {
+    margin-top: 30px;
+    font-weight: 600;
+    border: 1px solid #BFBCBC;
+    background: #61B846;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-size: 30px;
+    height: 72px;
+    
+}
+
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.tab-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

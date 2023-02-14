@@ -114,6 +114,7 @@ function Home() {
                     <Link to="/account" className="tab-link">
                         <FaUserAlt size={40} />
                         Account</Link>
+                        
                 </div>
             </div>
 

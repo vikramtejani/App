@@ -21,45 +21,45 @@ function Home() {
                     <RiDeleteBinFill size={40} color="#65BD50" />
                 </div>
             </div>
-            <div style={{padding: '1%', maxWidth: '700px', margin: "0 auto"}}>
+            <div style={{ padding: '1%', maxWidth: '700px', margin: "0 auto" }}>
                 <div className="card">
                     <div >
                         <img className='item-name' src={Product1} />
-                        
+
                     </div>
                     <div>
-                        <div  className='cardbody'>
-                        <p>ITEM NAME</p>
-                        <button className='incredecrebtn'>-</button>
-                        <p>0</p>
-                        <button className='incredecrebtn'>+</button>
+                        <div className='cardbody'>
+                            <p>ITEM NAME</p>
+                            <button className='incredecrebtn'>-</button>
+                            <p>0</p>
+                            <button className='incredecrebtn'>+</button>
                         </div>
                     </div>
                     <div>
                         <div className='cardbody'>
-                            
+
                             <p>700PKR</p>
                         </div>
 
                     </div>
                 </div>
-                
+
                 <div className="card">
                     <div >
                         <img className='item-name' src={Product2} />
-                        
+
                     </div>
                     <div>
-                        <div  className='cardbody'>
-                        <p>ITEM NAME</p>
-                        <button className='incredecrebtn'>-</button>
-                        <p>0</p>
-                        <button className='incredecrebtn'>+</button>
+                        <div className='cardbody'>
+                            <p>ITEM NAME</p>
+                            <button className='incredecrebtn'>-</button>
+                            <p>0</p>
+                            <button className='incredecrebtn'>+</button>
                         </div>
                     </div>
                     <div>
                         <div className='cardbody'>
-                            
+
                             <p>240PKR</p>
                         </div>
 
@@ -68,19 +68,19 @@ function Home() {
                 <div className="card">
                     <div>
                         <img className='item-name' src={Product3} />
-                        
+
                     </div>
                     <div>
-                        <div  className='cardbody'>
-                        <p>ITEM NAME</p>
-                        <button className='incredecrebtn'>-</button>
-                        <p>0</p>
-                        <button className='incredecrebtn'>+</button>
+                        <div className='cardbody'>
+                            <p>ITEM NAME</p>
+                            <button className='incredecrebtn'>-</button>
+                            <p>0</p>
+                            <button className='incredecrebtn'>+</button>
                         </div>
                     </div>
                     <div>
                         <div className='cardbody'>
-                            
+
                             <p>210PKR</p>
                         </div>
 
@@ -89,19 +89,19 @@ function Home() {
                 <div className="card">
                     <div >
                         <img className='item-name' src={Product4} />
-                        
+
                     </div>
                     <div>
-                        <div  className='cardbody'>
-                        <p>ITEM NAME</p>
-                        <button className='incredecrebtn'>-</button>
-                        <p>0</p>
-                        <button className='incredecrebtn'>+</button>
+                        <div className='cardbody'>
+                            <p>ITEM NAME</p>
+                            <button className='incredecrebtn'>-</button>
+                            <p>0</p>
+                            <button className='incredecrebtn'>+</button>
                         </div>
                     </div>
                     <div>
                         <div className='cardbody'>
-                            
+
                             <p>200PKR</p>
                         </div>
 
@@ -110,19 +110,19 @@ function Home() {
                 <div className="card">
                     <div >
                         <img className='item-name' src={Product1} />
-                        
+
                     </div>
                     <div>
-                        <div  className='cardbody'>
-                        <p>ITEM NAME</p>
-                        <button className='incredecrebtn'>-</button>
-                        <p>0</p>
-                        <button className='incredecrebtn'>+</button>
+                        <div className='cardbody'>
+                            <p>ITEM NAME</p>
+                            <button className='incredecrebtn'>-</button>
+                            <p>0</p>
+                            <button className='incredecrebtn'>+</button>
                         </div>
                     </div>
                     <div>
                         <div className='cardbody'>
-                            
+
                             <p>400PKR</p>
                         </div>
 
@@ -131,19 +131,19 @@ function Home() {
                 <div className="card">
                     <div >
                         <img className='item-name' src={Product4} />
-                        
+
                     </div>
                     <div>
-                        <div  className='cardbody'>
-                        <p>ITEM NAME</p>
-                        <button className='incredecrebtn'>-</button>
-                        <p>0</p>
-                        <button className='incredecrebtn'>+</button>
+                        <div className='cardbody'>
+                            <p>ITEM NAME</p>
+                            <button className='incredecrebtn'>-</button>
+                            <p>0</p>
+                            <button className='incredecrebtn'>+</button>
                         </div>
                     </div>
                     <div>
                         <div className='cardbody'>
-                            
+
                             <p>300PKR</p>
                         </div>
 
@@ -156,16 +156,16 @@ function Home() {
 
                 <div className="line-total">
                     <h3>Total</h3>
-                    <p className='pkr'>4344PKR</p> 
+                    <p className='pkr'>4344PKR</p>
                 </div>
 
                 <div className="order-place">
-                <input type="text" placeholder="Full Name" className='text-field' />
-                <input type="email" placeholder="Email" className='text-field' />
-                <input type="text" placeholder="Phone Number" className='text-field' />
-                <input type="text" placeholder=" Shipping Address" className='text-field' />
+                    <input type="text" placeholder="Full Name" className='text-field' />
+                    <input type="email" placeholder="Email" className='text-field' />
+                    <input type="text" placeholder="Phone Number" className='text-field' />
+                    <input type="text" placeholder=" Shipping Address" className='text-field' />
 
-                <button type="button" className="primary-btn">Place Order</button>
+                    <button type="button" className="primary-btn">Place Order</button>
                 </div>
 
                 <div className="tabs">
@@ -176,6 +176,7 @@ function Home() {
 
                         <FaCartArrowDown size={40} />
                         Cart</Link>
+
                     <Link to="/account" className="tab-link">
                         <FaUserAlt size={40} />
                         Account</Link>
