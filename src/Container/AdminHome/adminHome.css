@@ -1,8 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-line {
+    border: 1px solid #BFBCBC;
+    box-shadow: 5px 4px 4px #BFBCBC;
+    margin-top: 19px;
+
+}
+
+.name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #024F9D;
+}
+
+.status {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #61B846;
+    margin-right: 90px;
+}
+
+.product {
+    padding: 0 130px;
+    color: #024F9D;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100px;
+    
+}
+
+.product1 {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #65BD50;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+
+.item-name {
+    color: #61B846;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.item-par-kg {
+    color: #BFBCBC;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+.total{
+    color: #BFBCBC;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+}
+
 .tabs {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2%;
+    justify-content: space-around;
+    padding: 3%;
+
 }
 
 .tab-link {

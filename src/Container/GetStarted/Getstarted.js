@@ -17,12 +17,10 @@ const Getstarted = () => {
 
                 <h4 className="secondary-text">ONLINE DISCOUNT STORE</h4>
             </div>
-            <div className="btn" style={{ textAlign: "center" }} >
+            <div style={{ textAlign: "center", marginTop: '19px' }} >
                 <button className="primary-btn"
-                    onClick={() => navigate("/signup")}
-                >
+                    onClick={() => navigate("/signup")}>
                     Get Started
-
                 </button>
             </div>
 

@@ -1,0 +1,64 @@
+.headert {
+    color: #024F9D;
+    text-align: center;
+}
+
+.unitinput {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    width: 400px;
+    height: 40px;
+}
+
+.btn-add {
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #61B846;
+    border-radius: 10px;
+}
+
+.allcategorie {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #65BD50;
+    margin-bottom: 15px;
+    width: 540px;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+.catname {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    color: #65BD50;
+    /* align-items: center; */
+
+}
+
+.logout-btn {
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #BFBCBC;
+    background: #61B846;
+    border-radius: 15px;
+    height: 70px;
+    
+}
+.btnname{
+    font-size: 30px;
+    font-weight: 600;
+    color: antiquewhite;
+    text-decoration: none;
+}

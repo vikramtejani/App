@@ -1,28 +1,32 @@
 import React from 'react'
-import "./account.css"
+import './adminorder.css'
 import { Link } from "react-router-dom";
-import { FaHome, FaCartArrowDown, FaUserAlt } from 'react-icons/fa';
-import profile from './../../Assets/Ellipse 4.png'
-//import { RiDeleteBinFill } from 'react-icons/ri'
+import vector from './../../Assets/Vector.png'
+import list_alt from './../../Assets/list_alt.png'
+import img from './../../Assets/Ellipse 4.png'
 
-const Account = () => {
+
+export default function adminorder() {
     return (
-        <div >
-            <div className='headert' >
-                <h2>Settings</h2>
-            </div>
-            <div className='header-img'>
-                <img className='profile-img' src={profile} alt='Profile Image' />
-                <br /><br />
-                <div className='update-name'>
-                    <input className='update-name' type='text' placeholder='Update Full Name' />
-                    <p className='line'></p>
-                </div>
-            </div>
-            <div className='order'>
-                <p>Orders</p>
-            </div>
 
+        <div style={{ padding: '1%', maxWidth: '1180px', margin: "0 auto" }}>
+            <div className='header'>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '0 60px' }} >
+                    <img src={vector} />
+                    <img src={img} />
+                    <div>
+                        <h3 className='name'>Vikram Kumar</h3>
+                        <h4 className='status'>Admin</h4>
+                    </div>
+                </div>
+                <img src={list_alt} style={{ padding: '0 60px' }} />
+            </div>
+            <div className='main-line'>
+                <p></p>
+            </div>
+            <div >
+                <h2 className='orders'>Orders</h2>
+            </div>
             <div className='order-full-detail'>
                 <div className='order-name'>
                     <h3>Vikram Kumar</h3>
@@ -40,6 +44,14 @@ const Account = () => {
                     <h3>Total</h3>
                     <p className='pkr'>4344PKR</p>
                 </div>
+                <div >
+                    <select className='change-status'>
+                        <option>Fruit</option>
+                        <option>chicken</option>
+                        <option>vegetable</option>
+                    </select>
+                </div>
+
                 <div className='line3'>
                     <p></p>
                 </div>
@@ -60,25 +72,12 @@ const Account = () => {
                     <h3>Total</h3>
                     <p className='pkr'>4344PKR</p>
                 </div>
-                <div className='line3'>
-                    <p></p>
-                </div>
-
-                <div className='order-name'>
-                    <h3>Vikram Kumar</h3>
-                </div>
-                <div className='order-detail'>
-                    <p>Just Now - Pending</p>
-                    <p>03022004480</p>
-                </div>
-
-                <div className='item'>
-                    <p>2 x ITEM NAME</p>
-                    <p>3 x ITEM NAME</p>
-                </div>
-                <div className="line-total">
-                    <h3>Total</h3>
-                    <p className='pkr'>4344PKR</p>
+                <div >
+                    <select className='change-status'>
+                        <option>Fruit</option>
+                        <option>chicken</option>
+                        <option>vegetable</option>
+                    </select>
                 </div>
                 <div className='line3'>
                     <p></p>
@@ -100,40 +99,21 @@ const Account = () => {
                     <h3>Total</h3>
                     <p className='pkr'>4344PKR</p>
                 </div>
+                <div >
+                    <select className='change-status'>
+                        <option>Fruit</option>
+                        <option>chicken</option>
+                        <option>vegetable</option>
+                    </select>
+                </div>
                 <div className='line3'>
                     <p></p>
                 </div>
 
-
-
-
-                <div className='logout-btn'>
-                    <Link to="/login" className='btnname'>
-                    Logout</Link>
-                </div>
-            </div>
-
-           
                 
-                <div className="tabs">
-                    <Link to="/home" className="tab-link">
-                        <FaHome size={40} />
-                        Home</Link>
-                    <Link to="/cart" className="tab-link">
-                        <FaCartArrowDown size={40} />
-                        Cart</Link>
-                    <Link to="/account" className="tab-link">
-                        <FaUserAlt size={40} />
-                        Account</Link>
-                </div>
-
             </div>
 
-
-
-
-        
+        </div>
 
     )
 }
-export default Account; 
